@@ -1,7 +1,8 @@
 body {
     background-color: pink;
+    
+}
+    .img-circle {
+    border-radius: 50%;
 }
 
-.img-circle {
-    border-radius: 50%; ffff
-}
