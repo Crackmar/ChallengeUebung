@@ -6,8 +6,6 @@ body {
     border-radius: 50%;
 }
 
-<<<<<<< HEAD
-=======
 .img-circle {
     
     border-radius: 50%; 
@@ -17,4 +15,6 @@ h2 {
     font-family: sans-serif;
     color: rgb(11, 131, 211);
 }
->>>>>>> a22c686dbf064669cfd495066724f83c7fcd8b45
+a:hover{
+    background-color: white;
+}
