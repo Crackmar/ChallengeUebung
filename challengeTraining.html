@@ -7,7 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firma xy</title>
     <img src="http://metzgerei-hebling.de/wp-content/uploads/Metzgerei-Hebling-Logo_start-rosa2.png">
-      
+    
+    <hr></hr>
+   
+    
+
       <nav>
     <tr> 
       <td>
@@ -22,7 +26,7 @@
       </tr>
       </nav>
   </head>
-    
+  <hr></hr>
   <body>
       <section id="Beschreibung"> 
           
@@ -31,7 +35,7 @@
       <p> Unser Unternehmen beschäftigt sich seit 1867 mit dem Vertrieb von Schweinen.<br> Wir sind darauf spezialisiert, besonder Schweine zu züchten.<br> Diese Schweine sind als Haustiere oder zum Verzehr zu gebrauchen. </p>
               </div>
     </section>
-          
+    <hr></hr>
     <section id="Mitarbeiter">
         <h2> Unsere Mitarbeiter: </h2>
         
@@ -49,7 +53,7 @@
         </artice>
       <br>
         <br>
-        
+        <hr></hr>
         <artice id="Frederike Schmitz"> 
             <figure>
                 <img class="img-circle" src=" http://www.therapeuten.de/thimg/1503768235_DSC_0267-Portrait-kl.jpg "> 
@@ -72,4 +76,26 @@
       
       
   </body>
+  <hr></hr>
+  <footer>
+    <SCRIPT LANGUAGE="JavaScript">
+        var now = new Date();
+        
+        var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+        
+        var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+        
+        var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+        
+        function fourdigits(number)	{
+            return (number < 1000) ? number + 1900 : number;
+                                        }
+        today =  days[now.getDay()] + ", " +
+                 months[now.getMonth()] + " " +
+                 date + ", " +
+                 (fourdigits(now.getYear())) ;
+        
+        document.write(today);
+        </script>
+  </footer>
 </html>
