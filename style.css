@@ -3,5 +3,11 @@ body {
 }
 
 .img-circle {
-    border-radius: 50%; ffff
+    
+    border-radius: 50%; 
+}
+
+h2 {
+    font-family: sans-serif;
+    color: rgb(11, 131, 211);
 }
